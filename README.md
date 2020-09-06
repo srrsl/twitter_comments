@@ -1,6 +1,7 @@
 # twitter comments
 
 1. This repository will provide all comments of a specific tweet using its URL address. It is written without twitter API. All we need to continue extracting comments using this part of code will be beautiful soup and selenium and some other libraries. Just alter input URL value in twitter_tweet_whole_cmnts(url)<br>
+    - url = "https://twitter.com/NatGeo/status/1302489301268168705"
     - comments = twitter_tweet_whole_cmnts(url)<br>
     - print(comments)<br><br>
     
