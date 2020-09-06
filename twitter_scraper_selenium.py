@@ -179,6 +179,7 @@ def twitter_tweet_whole_cmnts(url):
                 comm['comment text'] = comments
                 comm['comment date'] = date
                 comm['comment user ID'] = users
+                
                 if comm not in comments_datas :
                     comments_datas.append(comm)
             except:
