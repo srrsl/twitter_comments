@@ -5,7 +5,7 @@
     - print(comments)<br><br>
     
 2. Additionally it can show you some information about a specific tweet (by its URL adress), like its user, the number of likes, retweet and other stuff like this. Uncomment these lines and comment others. Then write your twitter username and password to login <br>
-    - url = "https://twitter.com/Copa90/status/1301462306275184642"<br>
+    - url = "https://twitter.com/NatGeo/status/1302489301268168705"<br>
     - username = "USERNAME"<br>
     - password = "PASSWORD"<br>
     - comments = twitter_tweet_detail_data(url, username, password)<br>
