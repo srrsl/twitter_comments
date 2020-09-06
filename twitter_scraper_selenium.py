@@ -157,6 +157,7 @@ def twitter_tweet_whole_cmnts(url):
 
                 driver.find_element_by_xpath("//span[text()='Show more replies']").click()
                 time.sleep(5)
+                
             except:
                 break
             
@@ -182,6 +183,7 @@ def twitter_tweet_whole_cmnts(url):
                 
                 if comm not in comments_datas :
                     comments_datas.append(comm)
+                    
             except:
                 pass
     
